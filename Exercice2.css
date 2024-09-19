@@ -1,0 +1,48 @@
+header {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 16px;
+}
+
+body {
+    background-image: url("ImagesLabo3/téléchargé.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+tr:nth-child(odd) {
+    color: white;
+    background-color: transparent;
+
+
+}
+
+tr:nth-child(even) {
+    color: black;
+
+    background-color: bisque;
+
+}
+
+table {
+    border: 2px, solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+
+td,
+th {
+    border: 2px, solid black;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+}
+}
